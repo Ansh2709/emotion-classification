@@ -13,6 +13,8 @@ A Streamlit web application for interactive emotion prediction
 
 All necessary model artifacts and configuration files
 
+![Project Flow](https://github.com/user-attachments/assets/edd713f2-e662-43df-9c7e-c0f87ec96f7f)
+
 Directory Structure
 text
 emotion-classification/
@@ -194,3 +196,7 @@ Project code and methodology are consistent with current best practices in the f
 
 License
 This project is released under the MIT License.
+
+
+
+
