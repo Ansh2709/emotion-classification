@@ -16,28 +16,9 @@ All necessary model artifacts and configuration files
 ![Project Flow](https://github.com/user-attachments/assets/edd713f2-e662-43df-9c7e-c0f87ec96f7f)
 
 Directory Structure
-text
-emotion-classification/
-├── complete ipynb(DNN).ipynb
-├── complete ipynb(Xgboost).ipynb         # Main training notebooks
-├── test_model.py                         # Testing script for batch/single audio
-├── app.py                                # Streamlit web application
-├── README.md                             # This file
-├── requirements.txt                      # Dependencies
-├── trained models/                       # Trained models and preprocessors
-│   ├── model used in test_model.py and app.py/
-│   │   ├── emotion_model.h5              # Keras model
-│   │   ├── scaler.pkl                    # Feature scaler
-│   │   ├── label_encoder.pkl             # Label encoder
-│   │   └── config.pkl                    # Configuration
-│   ├── model can be used in test_model.py and app.py/
-│   │   ├── best_emotion_model.h5         # Enhanced Keras model
-│   │   ├── enhanced_scaler.pkl           # Enhanced feature scaler
-│   │   ├── enhanced_label_encoder.pkl    # Enhanced label encoder
-│   │   ├── enhanced_config.pkl           # Enhanced configuration
-│   │   └── feature_selector.pkl          # Feature selection object
-└── demo/
-    └── demo_video.mp4                    # Demo video
+![Screenshot 2025-06-25 023125](https://github.com/user-attachments/assets/2fd8bd26-7843-4b4c-a997-73649a352dd6)
+
+
 Project Description
 This project aims to accurately classify emotions from speech signals. The system supports multiple model architectures (DNN, XGBoost, Random Forest, etc.) and is designed for robust performance across diverse emotional classes. The workflow includes:
 
