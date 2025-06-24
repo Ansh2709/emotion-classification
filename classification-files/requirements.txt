@@ -1,0 +1,16 @@
+
+numpy
+pandas
+librosa
+scikit-learn
+tensorflow
+streamlit
+plotly
+seaborn
+matplotlib
+joblib
+soundfile
+python-speech-features
+scipy
+numba
+pyngrok
